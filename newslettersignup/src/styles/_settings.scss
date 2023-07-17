@@ -1,11 +1,11 @@
 @font-face {
     font-family: "roboLight";
-    src: url(../../public/assets/fonts/Roboto-Regular.ttf);
+    src: url(../assets/fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: "roboBold";
-    src: url(../../public/assets/fonts/Roboto-Bold.ttf);
+    src: url(../assets/fonts/Roboto-Bold.ttf);
 }
 
 $font1: roboLight, sans-serif;
@@ -25,4 +25,9 @@ $white: hsl(0, 0%, 100%);
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    min-width: 1445px;
+    background: $charcoal_Grey;
 }
