@@ -29,5 +29,29 @@ html {
 
 body {
     min-width: 1445px;
+    min-height: 100vh;
     background: $charcoal_Grey;
+}
+
+@mixin btn {
+    width: 95%;
+    margin-top: 5%;
+    height: 40px;
+    color: $white ;
+    background: $dark_grey;
+    text-align: center;
+    border-radius: 5px;
+    font-family: $font1;
+    cursor: pointer;
+
+    &:hover {
+        background: $tomato;
+        color: $white;
+        border: none;
+        box-shadow: $tomato 0px 18px 50px -10px;
+    }
+
+    &:active {
+        transform: scale(.2);
+    }
 }
